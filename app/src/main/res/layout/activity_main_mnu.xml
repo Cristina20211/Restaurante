@@ -71,9 +71,9 @@
                 android:onClick="selectComida"
                 android:orientation="vertical">
 
-                <Button
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
                     android:background="@drawable/pizza" />
 
                 <TextView
@@ -97,10 +97,10 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="15dp">
 
-                <Button
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:background="@drawable/hamburgueza"/>
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/hamburgueza" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -120,7 +120,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="15dp">
 
-                <Button
+                <ImageButton
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:background="@drawable/salchipapas"/>
@@ -143,9 +143,9 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="15dp">
 
-                <Button
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
                     android:background="@drawable/refrescocomida"/>
 
                 <TextView
@@ -181,8 +181,8 @@
 
                 <ImageView
                     android:id="@+id/btnSmallBurger"
-                    android:layout_width="95dp"
-                    android:layout_height="102dp"
+                    android:layout_width="128dp"
+                    android:layout_height="138dp"
                     android:src="@drawable/tacos" />
 
                 <TextView
@@ -208,10 +208,10 @@
                         android:textSize="18sp"
                         android:textStyle="bold"/>
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/btnAdd"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:background="@drawable/plus_circle"
                         android:layout_marginLeft="20dp"/>
 
@@ -256,10 +256,10 @@
                         android:textSize="18sp"
                         android:textStyle="bold"/>
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/btnAdd2"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:background="@drawable/plus_circle"
                         android:layout_marginLeft="20dp"/>
 
