@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-
     package="com.example.restaurante">
-
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,6 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Restaurante"
         tools:targetApi="31">
+        <activity
+            android:name=".CriticasConstructivas"
+            android:exported="false" />
+        <activity
+            android:name=".Quejas"
+            android:exported="false" />
+        <activity
+            android:name=".AyudaInterfaz"
+            android:exported="false" />
         <activity
             android:name=".twittercontact"
             android:exported="false" />

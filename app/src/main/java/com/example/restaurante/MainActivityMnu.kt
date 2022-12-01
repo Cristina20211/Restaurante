@@ -25,13 +25,15 @@ class MainActivityMnu : AppCompatActivity() {
             R.id.btnPizza ->
             {
                 Toast.makeText(this, "Has seleccionado pizza", Toast.LENGTH_SHORT).show()
-                val newWindow: Intent = Intent(applicationContext,ScrollAyuda::class.java)
+
+                val newWindow: Intent = Intent(applicationContext,insta::class.java)
                 startActivity(newWindow)
 
             }
             R.id.btnBurger ->
             {
                 Toast.makeText(this, "Has seleccionado una burger", Toast.LENGTH_SHORT).show()
+
 
             }
             R.id.btnHotDog ->

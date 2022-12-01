@@ -323,45 +323,31 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/btnTrolley"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="40dp"
-                android:src="@drawable/ic_shopping_cart"
-                android:layout_gravity="center"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:text="Carrito"
-                android:layout_gravity="center"
-                android:textSize="15sp"
-                />
-        </LinearLayout>
-
-        <LinearLayout
             android:id="@+id/btnSettings"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="40dp"
-                android:src="@drawable/ic_settings"
-                android:layout_gravity="center"
-                />
-            <TextView
-                android:layout_width="wrap_content"
+
+            <LinearLayout
+                android:id="@+id/btnTrolley"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="Ajustes"
-                android:layout_gravity="center"
-                android:textSize="15sp"
-                />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_shopping_cart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="Carrito"
+                    android:textSize="15sp" />
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
