@@ -26,7 +26,7 @@ class MainActivityMnu : AppCompatActivity() {
             {
                 Toast.makeText(this, "Has seleccionado pizza", Toast.LENGTH_SHORT).show()
 
-                val newWindow: Intent = Intent(applicationContext,insta::class.java)
+                val newWindow: Intent = Intent(applicationContext,bomboFamiliar::class.java)
                 startActivity(newWindow)
 
             }

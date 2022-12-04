@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/canc"
+    android:background="@drawable/sucu"
     tools:context=".VistaFragmento">
 
     <!-- TODO: Update blank fragment layout -->
@@ -13,8 +13,7 @@
         android:id="@+id/tv_Mensaje"
         android:layout_width="392dp"
         android:layout_height="224dp"
-        android:text="Restaurante el
-                       Mexicaly"
+        android:text="."
         android:textColor="@android:color/white"
         android:textSize="38dp"
         android:textStyle="bold"
