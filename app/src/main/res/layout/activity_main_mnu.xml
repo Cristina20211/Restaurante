@@ -407,13 +407,6 @@
             android:onClick="perfil"
             app:srcCompat="@drawable/ic_profile" />
 
-        <ImageButton
-            android:id="@+id/btn_carrito"
-            android:layout_width="122dp"
-            android:layout_height="86dp"
-            android:onClick="carrito"
-            android:background="@drawable/category2"
-            app:srcCompat="@drawable/shopping" />
     </LinearLayout>
 
 

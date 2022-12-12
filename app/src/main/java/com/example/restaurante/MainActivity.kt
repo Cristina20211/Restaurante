@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
 
             R.id.miMenu->{
                 Toast.makeText(this, "has seleccionado menu", Toast.LENGTH_SHORT).show()
-                val newWindow: Intent = Intent(applicationContext,MainActivityMnu::class.java)
+                val newWindow: Intent = Intent(applicationContext,LoginActivity::class.java)
                 startActivity(newWindow)
             }
 

@@ -119,19 +119,7 @@ class MainActivityMnu : AppCompatActivity() {
             }
         }
     }
-    fun carrito(Vista: View) {
 
-        when (Vista.id) {
-
-            R.id.btn_carrito -> {
-                Toast.makeText(this, "Has seleccionado carrito", Toast.LENGTH_SHORT).show()
-
-                val newWindow: Intent = Intent(applicationContext, LoginActivity::class.java)
-                startActivity(newWindow)
-
-            }
-        }
-    }
 
 
     fun perfil(Vista: View) {
