@@ -13,7 +13,7 @@ class vpAdaptador(fa: FragmentActivity): FragmentStateAdapter(fa) {
         private const val ARG_OBJECT = "object"
     }
     //cantidad de valores q debuelve = 3 numero de vistas o fragment que va a tener
-    override fun getItemCount(): Int = 3
+    override fun getItemCount(): Int = 1
 
     override fun createFragment(position: Int): Fragment {
         //crear vista de fragment creamos una contante

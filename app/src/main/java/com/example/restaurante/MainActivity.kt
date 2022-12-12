@@ -60,30 +60,7 @@ class MainActivity : AppCompatActivity() {
                         badge.isVisible
 
                     }
-                    1 ->{
-                        tab.text="Vision Mision"
-                        tab.setIcon(R.drawable.vimi)
-                        val badge: BadgeDrawable =tab.orCreateBadge
-                        badge.backgroundColor= ContextCompat.getColor(applicationContext,R.color.micolor)
-                        badge.number=2
-                        badge.isVisible
-                    }
-                    2 ->{
-                        tab.text="Politicas"
-                        tab.setIcon(R.drawable.politicas)
-                        val badge: BadgeDrawable =tab.orCreateBadge
-                        badge.backgroundColor= ContextCompat.getColor(applicationContext,R.color.micolor)
-                        badge.number=14
-                        badge.maxCharacterCount=3
-                        badge.isVisible
-
-
-                    }
                 }
-
-
-
-
             })
 
 
@@ -120,11 +97,30 @@ class MainActivity : AppCompatActivity() {
                 val newWindow: Intent = Intent(applicationContext,ScrollContactos::class.java)
                 startActivity(newWindow)
             }
+
+
+            R.id.mivisionmision->{
+                Toast.makeText(this, "has seleccionado ver la vision y mision ", Toast.LENGTH_SHORT).show()
+                val newWindow: Intent = Intent(applicationContext,VisionMision::class.java)
+                startActivity(newWindow)
+            }
+
+
+            R.id.miPoliticas->{
+                Toast.makeText(this, "has seleccionado Politicas ", Toast.LENGTH_SHORT).show()
+                val newWindow: Intent = Intent(applicationContext,Politicas::class.java)
+                startActivity(newWindow)
+            }
+
+
             R.id.miAyuda->{
                 Toast.makeText(this, "has seleccionado ayuda ", Toast.LENGTH_SHORT).show()
                 val newWindow: Intent = Intent(applicationContext,ScrollAyuda::class.java)
                 startActivity(newWindow)
             }
+
+
+
             R.id.misalir->{
                 finish()
             }

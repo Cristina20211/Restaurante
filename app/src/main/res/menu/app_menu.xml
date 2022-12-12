@@ -20,6 +20,24 @@
 
 
         />
+
+
+    <item
+        android:id="@+id/mivisionmision"
+        android:title="Mision/Vision"
+        android:icon="@drawable/salir"
+        app:showAction="config"
+
+
+        />
+    <item
+        android:id="@+id/miPoliticas"
+        android:title="Politicas"
+        android:icon="@drawable/salir"
+        app:showAction="config"
+
+
+        />
     <item
         android:id="@+id/miAyuda"
         android:title="Ayuda"

@@ -16,24 +16,62 @@
         android:theme="@style/Theme.Restaurante"
         tools:targetApi="31">
         <activity
-            android:name=".login"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".bomboFamiliar"
+            android:name=".Combo12"
             android:exported="false" />
+        <activity
+            android:name=".Combo11"
+            android:exported="false" />
+        <activity
+            android:name=".Combo10"
+            android:exported="false" />
+        <activity
+            android:name=".Combo9"
+            android:exported="false" />
+        <activity
+            android:name=".Combo8"
+            android:exported="false" />
+        <activity
+            android:name=".Combo7"
+            android:exported="false" />
+        <activity
+            android:name=".Combo6"
+            android:exported="false" />
+        <activity
+            android:name=".Combo5"
+            android:exported="false" />
+        <activity
+            android:name=".Combo4"
+            android:exported="false" />
+        <activity
+            android:name=".Combo3"
+            android:exported="false" />
+        <activity
+            android:name=".Combo2"
+            android:exported="false" />
+        <activity
+            android:name=".Politicas"
+            android:exported="false" />
+        <activity
+            android:name=".combo1"
+            android:exported="false" />
+        <activity
+            android:name=".VisionMision"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
         <activity
             android:name=".CriticasConstructivas"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Quejas"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".AyudaInterfaz"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".twittercontact"
             android:exported="false" />

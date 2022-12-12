@@ -4,24 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/chef"
+    android:background="@drawable/fondlo"
     tools:context=".CriticasConstructivas">
 
 
     <EditText
         android:id="@+id/et_quejas"
-        android:layout_width="276dp"
-        android:layout_height="39dp"
+        android:layout_width="323dp"
+        android:layout_height="174dp"
         android:ems="10"
         android:hint="Escribe tus criticas constructivas"
         android:inputType="textEmailAddress"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.863" />
+        app:layout_constraintVertical_bias="0.398" />
 
     <Button
         android:id="@+id/button"
@@ -30,9 +30,19 @@
         android:text="Enviar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_quejas"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.045" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="189dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toTopOf="@+id/et_quejas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882"
+        app:srcCompat="@drawable/ccccccc" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

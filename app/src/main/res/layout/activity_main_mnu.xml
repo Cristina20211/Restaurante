@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/images"
+    android:background="@drawable/mmmmmmmmm3eeeeeeeeeeeee"
     android:orientation="vertical"
     >
 
@@ -19,49 +19,34 @@
             android:layout_marginTop="15dp"
             android:gravity="center">
 
-            <LinearLayout
-                android:layout_width="335dp"
-                android:layout_height="50dp"
-                android:background="@drawable/search"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/ic_search_24" />
-
-                <EditText
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:inputType="text"
-                    android:text="Search Your Favorite Food"
-                    android:textColor="@color/teal_700"
-                    android:textSize="20sp" />
-            </LinearLayout>
-
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:text="El_Mexicaly" />
         </LinearLayout>
-        <!--Banner -->
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/banner1" />
-        <!--Text Category -->
+
         <TextView
             android:layout_width="345dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
-            android:text="Categorias"
+            android:text="Menu"
             android:textSize="20sp"
             android:textStyle="bold" />
-        <!--Category -->
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="125dp"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:id="@+id/btnPizza"
+                android:id="@+id/btncombo1"
                 android:layout_width="80dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="25dp"
@@ -74,12 +59,12 @@
                 <ImageButton
                     android:layout_width="59dp"
                     android:layout_height="56dp"
-                    android:background="@drawable/pizza" />
+                    android:background="@drawable/combo1" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pizza"
+                    android:text="combo1"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
 
@@ -88,7 +73,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/btnBurger"
+                android:id="@+id/btncombo2"
                 android:layout_width="80dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="12dp"
@@ -100,18 +85,18 @@
                 <ImageButton
                     android:layout_width="56dp"
                     android:layout_height="56dp"
-                    android:background="@drawable/hamburgueza" />
+                    android:background="@drawable/combo_2" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Burger"
+                    android:text="Combo2"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/btnHotDog"
+                android:id="@+id/btncombo3"
                 android:layout_width="80dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="12dp"
@@ -123,18 +108,18 @@
                 <ImageButton
                     android:layout_width="45dp"
                     android:layout_height="45dp"
-                    android:background="@drawable/salchipapas" />
+                    android:background="@drawable/combo3" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hot dog"
+                    android:text="combo3"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/btnRefresco"
+                android:id="@+id/btncombo4"
                 android:layout_width="80dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="12dp"
@@ -146,12 +131,12 @@
                 <ImageButton
                     android:layout_width="56dp"
                     android:layout_height="56dp"
-                    android:background="@drawable/refrescocomida" />
+                    android:background="@drawable/combo4" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bebida"
+                    android:text="combo4"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
             </LinearLayout>
@@ -160,187 +145,273 @@
 
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="160dp"
-                android:layout_height="220dp"
+                android:id="@+id/btncombo5"
+                android:layout_width="74dp"
+                android:layout_height="103dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/category"
                 android:gravity="center"
+                android:onClick="selectComida"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/btnSmallBurger"
-                    android:layout_width="128dp"
-                    android:layout_height="138dp"
-                    android:src="@drawable/tacos" />
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/combo5" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tacos jaliscos"
+                    android:text="combo5"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="18dp" />
 
-                <LinearLayout
-                    android:layout_width="150dp"
+
+                />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/btncombo6"
+                android:layout_width="75dp"
+                android:layout_height="99dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectComida"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/combo6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    android:text="combo6"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="$9.25"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
 
-                    <ImageButton
-                        android:id="@+id/btnAdd"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_marginLeft="20dp"
-                        android:background="@drawable/plus_circle" />
-
-                </LinearLayout>
+                />
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="160dp"
-                android:layout_height="220dp"
+                android:id="@+id/btncombo7"
+                android:layout_width="75dp"
+                android:layout_height="99dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/category"
                 android:gravity="center"
+                android:onClick="selectComida"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/btnPePizza"
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:src="@drawable/ensalada" />
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/combo7" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ensalada al ajillo"
+                    android:text="combo7"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="18dp" />
 
-                <LinearLayout
-                    android:layout_width="150dp"
+
+                />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btncombo8"
+                android:layout_width="68dp"
+                android:layout_height="101dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectComida"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/combo8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    android:text="combo8"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="$7.99"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
 
-                    <ImageButton
-                        android:id="@+id/btnAdd2"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_marginLeft="20dp"
-                        android:background="@drawable/plus_circle" />
-
-                </LinearLayout>
-
+                />
             </LinearLayout>
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:orientation="horizontal">
 
+            <LinearLayout
+                android:id="@+id/btncombo9"
+                android:layout_width="74dp"
+                android:layout_height="103dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectComida"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/combo9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="combo9"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btncombo10"
+                android:layout_width="75dp"
+                android:layout_height="99dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectComida"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/combo10" />
+
+                <TextView
+                    android:layout_width="87dp"
+                    android:layout_height="wrap_content"
+                    android:text="combo10"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btncombo11"
+                android:layout_width="75dp"
+                android:layout_height="99dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectComida"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/combo11" />
+
+                <TextView
+                    android:layout_width="86dp"
+                    android:layout_height="wrap_content"
+                    android:text="combo11"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btncombo12"
+                android:layout_width="68dp"
+                android:layout_height="101dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectComida"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/combo12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="combo12"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+
+                />
+            </LinearLayout>
+
+        </LinearLayout>
     </LinearLayout>
-    <!--Navigation -->
+
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="411dp"
+        android:layout_height="81dp"
         android:orientation="horizontal"
-        android:gravity="center"
-        android:background="@drawable/navigation">
+        android:gravity="center">
 
-        <LinearLayout
-            android:id="@+id/btnHome"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="122dp"
+            android:layout_height="86dp"
+            android:background="@drawable/category2"
+            android:onClick="inicio"
+            app:srcCompat="@drawable/ic_home" /> />
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="40dp"
-                android:src="@drawable/ic_home"
-                android:layout_gravity="center"
-                />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:text="Home"
-                android:layout_gravity="center"
-                android:textSize="15sp"
-                />
-        </LinearLayout>
+        <ImageButton
+            android:id="@+id/btn_perfil"
+            android:layout_width="122dp"
+            android:layout_height="86dp"
+            android:background="@drawable/category2"
+            android:onClick="perfil"
+            app:srcCompat="@drawable/ic_profile" />
 
-        <LinearLayout
-            android:id="@+id/btnProfile"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="40dp"
-                android:src="@drawable/ic_profile"
-                android:layout_gravity="center"
-                />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:text="Perfil"
-                android:layout_gravity="center"
-                android:textSize="15sp"
-                />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/btnSettings"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:id="@+id/btnTrolley"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/ic_shopping_cart" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="5dp"
-                    android:text="Carrito"
-                    android:textSize="15sp" />
-            </LinearLayout>
-        </LinearLayout>
-
+        <ImageButton
+            android:id="@+id/btn_carrito"
+            android:layout_width="122dp"
+            android:layout_height="86dp"
+            android:onClick="carrito"
+            android:background="@drawable/category2"
+            app:srcCompat="@drawable/shopping" />
     </LinearLayout>
+
+
 
 </LinearLayout>

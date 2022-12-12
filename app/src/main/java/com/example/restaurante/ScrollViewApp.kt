@@ -15,10 +15,20 @@ class ScrollViewApp : AppCompatActivity() {
     fun seleccionaComida(Vista: View){
 
         when(Vista.id){
-            R.id.btnPizza-> Toast.makeText(this, "son Hamburguesa", Toast.LENGTH_SHORT).show()
-            R.id.btnBurger-> Toast.makeText(this, "son tacos", Toast.LENGTH_SHORT).show()
-            R.id.btnHotDog-> Toast.makeText(this, "son salchipapas", Toast.LENGTH_SHORT).show()
-            R.id.btnRefresco-> Toast.makeText(this, "son cervezas", Toast.LENGTH_SHORT).show()
+            R.id.btncombo1-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo2-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo3-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo4-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo5-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo6-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo7-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo8-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo9-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo10-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo11-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+            R.id.btncombo12-> Toast.makeText(this, "combo", Toast.LENGTH_SHORT).show()
+
+
 
 
         }
