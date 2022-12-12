@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/pan"
     android:layout_height="match_parent"
     tools:context=".Combo8">
 
@@ -35,24 +36,23 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="296dp"
+        android:layout_marginBottom="352dp"
         android:text="Contiene"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="396dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="236dp"
-        android:text="- 1 Torta   -1 Porcion de papas  - 1 Soda al gusto"
+        android:layout_width="393dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="228dp"
+        android:text="- 1 Hamburguesa -1 Pizza -1salchipapa -1palitos crujientes  -1 Porcion de papas  - 1 Soda al gusto -1 cervesa "
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 

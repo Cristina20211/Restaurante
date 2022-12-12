@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/pan"
     tools:context=".Combo5">
 
 
@@ -34,20 +35,20 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="296dp"
+        android:layout_marginBottom="352dp"
         android:text="Contiene"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="396dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="236dp"
-        android:text="- 1 Torta   -1 Porcion de papas  - 1 Soda al gusto"
+        android:layout_width="395dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="244dp"
+        android:text="- 2 Pizzas gigantes  - 1 Porcion de panes con ajo  - 1 Soda al gusto"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

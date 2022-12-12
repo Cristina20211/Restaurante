@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/pan"
     tools:context=".Combo3">
 
 
@@ -34,7 +35,7 @@
         android:layout_width="396dp"
         android:layout_height="50dp"
         android:layout_marginBottom="236dp"
-        android:text="- 1 Torta   -1 Porcion de papas  - 1 Soda al gusto"
+        android:text="- 1 Hamburguesa  -1 Pizza -1 Porcion de papas  - 1 Soda al gusto"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -78,6 +78,7 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="15dp"
+                android:onClick="selectComida"
                 android:background="@drawable/category"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -102,6 +103,7 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="15dp"
+                android:onClick="selectComida"
                 android:background="@drawable/category"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -125,6 +127,7 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="15dp"
+                android:onClick="selectComida"
                 android:background="@drawable/category"
                 android:gravity="center"
                 android:orientation="vertical">

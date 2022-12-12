@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Combo11">
+    android:background="@drawable/pan"
 
+    tools:context=".Combo11">
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="262dp"
-        android:layout_height="147dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="424dp"
+        android:layout_width="399dp"
+        android:layout_height="286dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="384dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/combo11" />
@@ -47,7 +48,7 @@
         android:id="@+id/ingredientes"
         android:layout_width="403dp"
         android:layout_height="73dp"
-        android:text="- 1 Torta   -1 Porcion de papas  - 1 Soda al gusto"
+        android:text="- 4 Hamburguesas  - 1 Soda extra grande al gusto"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
