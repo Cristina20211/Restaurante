@@ -93,6 +93,7 @@
                     android:text="Combo2"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
+
             </LinearLayout>
 
             <LinearLayout

@@ -32,7 +32,7 @@ class MainActivityMnu : AppCompatActivity() {
             {
                 Toast.makeText(this, "Has seleccionado combo2", Toast.LENGTH_SHORT).show()
 
-                val newWindow: Intent = Intent(applicationContext,Combo10::class.java)
+                val newWindow: Intent = Intent(applicationContext,Combo2::class.java)
                 startActivity(newWindow)
 
             }
@@ -40,7 +40,7 @@ class MainActivityMnu : AppCompatActivity() {
             {
                 Toast.makeText(this, "Has seleccionado combo3", Toast.LENGTH_SHORT).show()
 
-                val newWindow: Intent = Intent(applicationContext,Combo8::class.java)
+                val newWindow: Intent = Intent(applicationContext,Combo3::class.java)
                 startActivity(newWindow)
 
             }
@@ -48,7 +48,7 @@ class MainActivityMnu : AppCompatActivity() {
             {
                 Toast.makeText(this, "Has seleccionado combo4", Toast.LENGTH_SHORT).show()
 
-                val newWindow: Intent = Intent(applicationContext,Combo8::class.java)
+                val newWindow: Intent = Intent(applicationContext,Combo4::class.java)
                 startActivity(newWindow)
 
             }
