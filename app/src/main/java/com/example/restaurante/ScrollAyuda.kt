@@ -25,26 +25,6 @@ class ScrollAyuda : AppCompatActivity() {
             startActivity(newWindow)
 
         }
-            R.id.quejas-> {
-
-                Toast.makeText(this, "puedes dejar tus quejas aqui", Toast.LENGTH_SHORT).show()
-                val newWindow: Intent = Intent(applicationContext,Quejas::class.java)
-                startActivity(newWindow)
-            }
-
-
-
-            R.id.CriticasConstructivas-> {
-
-                Toast.makeText(this, "algo que te gustaria que mejoremos", Toast.LENGTH_SHORT).show()
-
-                val newWindow: Intent = Intent(applicationContext,CriticasConstructivas::class.java)
-                startActivity(newWindow)
-
-
-
-
-            }
 
         }
     }
