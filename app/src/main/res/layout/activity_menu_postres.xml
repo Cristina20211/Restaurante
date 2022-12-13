@@ -21,11 +21,11 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="wrap_content"
+                android:layout_width="397dp"
                 android:layout_height="wrap_content"
-                android:textSize="30sp"
+                android:text="POSTRES (incluye bebidas)"
                 android:textColor="@android:color/black"
-                android:text="POSTRES (incluye bebidas)" />
+                android:textSize="25dp" />
         </LinearLayout>
 
         <ImageView

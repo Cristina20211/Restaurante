@@ -38,16 +38,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
+        <TextView
             android:id="@+id/editTextTextPersonName2"
-            android:layout_width="372dp"
-            android:layout_height="169dp"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
             android:layout_marginTop="28dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="¿En que te podemos ayudar?"
-            android:textColor="@color/black"
-            android:textSize="30dp"
+            android:text="¿Indicaciondes para utilizar Mexicaly?"
+            android:textColor="@color/white"
+            android:textSize="23dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.589"
             app:layout_constraintStart_toStartOf="parent"
@@ -59,20 +59,6 @@
             android:layout_height="111dp"
             android:onClick="seleccionaAyuda"
             android:src="@drawable/interfas" />
-
-        <ImageButton
-            android:id="@+id/quejas"
-            android:layout_width="match_parent"
-            android:layout_height="106dp"
-            android:onClick="seleccionaAyuda"
-            android:src="@drawable/quejas" />
-
-        <ImageButton
-            android:id="@+id/CriticasConstructivas"
-            android:layout_width="match_parent"
-            android:layout_height="101dp"
-            android:onClick="seleccionaAyuda"
-            android:src="@drawable/crco" />
 
 
     </LinearLayout>
