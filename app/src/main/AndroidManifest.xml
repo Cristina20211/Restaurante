@@ -16,6 +16,45 @@
         android:theme="@style/Theme.Restaurante"
         tools:targetApi="31">
         <activity
+            android:name=".postre12"
+            android:exported="false" />
+        <activity
+            android:name=".postre11"
+            android:exported="false" />
+        <activity
+            android:name=".postre10"
+            android:exported="false" />
+        <activity
+            android:name=".postre9"
+            android:exported="false" />
+        <activity
+            android:name=".postre8"
+            android:exported="false" />
+        <activity
+            android:name=".postre7"
+            android:exported="false" />
+        <activity
+            android:name=".postre6"
+            android:exported="false" />
+        <activity
+            android:name=".postre5"
+            android:exported="false" />
+        <activity
+            android:name=".postre4"
+            android:exported="false" />
+        <activity
+            android:name=".postre3"
+            android:exported="false" />
+        <activity
+            android:name=".postre2"
+            android:exported="false" />
+        <activity
+            android:name=".postre1"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_Postres"
+            android:exported="false" />
+        <activity
             android:name=".Combo12"
             android:exported="false" />
         <activity

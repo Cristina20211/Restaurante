@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mmmmmmmmm3eeeeeeeeeeeee"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="397dp"
+        android:layout_height="650dp"
+        android:orientation="vertical">
+        <!--Search -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:text="POSTRES (incluye bebidas)" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/postru" />
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Menu"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btnpostre1"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/p1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postre1"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnpostre2"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/p2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postre2"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnpostre3"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/p3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postre3"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnpostre4"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/p4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postre4"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btnpostre5"
+                android:layout_width="74dp"
+                android:layout_height="103dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/p5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postre5"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btnpostre6"
+                android:layout_width="75dp"
+                android:layout_height="99dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/p6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postre6"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnpostre7"
+                android:layout_width="75dp"
+                android:layout_height="99dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/p7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postre7"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btnpostre8"
+                android:layout_width="68dp"
+                android:layout_height="101dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/p8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postre8"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btnpostre9"
+                android:layout_width="74dp"
+                android:layout_height="103dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="74dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/p9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postre9"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnpostre10"
+                android:layout_width="75dp"
+                android:layout_height="99dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/p10" />
+
+                <TextView
+                    android:layout_width="87dp"
+                    android:layout_height="wrap_content"
+                    android:text="Postre10"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnpostre11"
+                android:layout_width="75dp"
+                android:layout_height="99dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/p11" />
+
+                <TextView
+                    android:layout_width="86dp"
+                    android:layout_height="wrap_content"
+                    android:text="Postre11"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btnpostre12"
+                android:layout_width="68dp"
+                android:layout_height="101dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category"
+                android:gravity="center"
+                android:onClick="selectPostre"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/p12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postre12"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="81dp"
+        android:orientation="horizontal"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>

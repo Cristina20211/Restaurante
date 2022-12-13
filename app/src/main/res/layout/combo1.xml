@@ -4,29 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pan"
+    android:background="@drawable/naranja"
     tools:context=".combo1">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="92dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="184dp"
+        android:text="Precio:"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="231dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="120dp"
+        android:text="$ 4.50"
+        android:textColor="@android:color/black"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="262dp"
-        android:layout_height="147dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="424dp"
+        android:layout_width="322dp"
+        android:layout_height="228dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="364dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/combo1" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="344dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="60dp"
-        android:text="Combo 1"
+        android:layout_width="278dp"
+        android:layout_height="88dp"
         android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:text="Combo 1"
+        android:textColor="@android:color/black"
         android:textSize="@android:dimen/app_icon_size"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintHorizontal_bias="0.007"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,6 +75,7 @@
         android:layout_marginBottom="236dp"
         android:text="- 1 Taquipollo   -1 Porcion de papas  - 1 Soda al gusto"
         android:textSize="20dp"
+        android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

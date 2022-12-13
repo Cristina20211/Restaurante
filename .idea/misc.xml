@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/drawable-v24/category2.xml" value="0.133" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/drawable/category.xml" value="0.133" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/Postres_mnu.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_ayuda_interfaz.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_combo10.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_combo11.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_combo12.xml" value="0.2" />
@@ -12,13 +16,27 @@
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_combo5.xml" value="0.17" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_combo6.xml" value="0.14" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_combo7.xml" value="0.14" />
-        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_combo8.xml" value="0.25" />
-        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_combo9.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_combo8.xml" value="0.18" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_combo9.xml" value="0.16" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_criticas_constructivas.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_facecont.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_insta.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_main_mnu.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_menu_postres.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_politicas.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre1.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre10.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre11.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre12.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre2.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre3.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre4.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre5.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre6.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre7.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre8.xml" value="0.2" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_postre9.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_quejas.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_registrar.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_scroll_ayuda.xml" value="0.2" />
@@ -27,7 +45,7 @@
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_twittercontact.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_vision_mision.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/activity_vista_fragmento.xml" value="0.2" />
-        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/combo1.xml" value="0.25" />
+        <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/combo1.xml" value="0.18" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/layout/login.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/DrawerButtonViewApp1/Restaurante/app/src/main/res/menu/app_menu.xml" value="0.2" />
         <entry key="..\:/Users/crist/AndroidStudioProjects/Restaurante/app/src/main/res/drawable-anydpi/sucursales.xml" value="0.1625" />

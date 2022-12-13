@@ -126,10 +126,23 @@ class MainActivityMnu : AppCompatActivity() {
 
         when (Vista.id) {
 
-            R.id.btn_perfil -> {
+            R.id.btn_perfil3-> {
                 Toast.makeText(this, "Has seleccionado redirigirte a contactos", Toast.LENGTH_SHORT).show()
 
                 val newWindow: Intent = Intent(applicationContext, ScrollContactos::class.java)
+                startActivity(newWindow)
+
+            }
+        }
+    }
+    fun postres(Vista: View) {
+
+        when (Vista.id) {
+
+            R.id.btn_postre-> {
+                Toast.makeText(this, "Has seleccionado redirigirte postres", Toast.LENGTH_SHORT).show()
+
+                val newWindow: Intent = Intent(applicationContext, Menu_Postres::class.java)
                 startActivity(newWindow)
 
             }

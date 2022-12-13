@@ -392,6 +392,15 @@
         android:gravity="center">
 
         <ImageButton
+            android:id="@+id/btn_perfil3"
+            android:layout_width="122dp"
+            android:layout_height="86dp"
+            android:layout_weight="1"
+            android:background="@drawable/category2"
+            android:onClick="perfil"
+            app:srcCompat="@drawable/ic_perfil" />
+
+        <ImageButton
             android:id="@+id/btn_home"
             android:layout_width="122dp"
             android:layout_height="86dp"
@@ -400,12 +409,12 @@
             app:srcCompat="@drawable/ic_home" /> />
 
         <ImageButton
-            android:id="@+id/btn_perfil"
+            android:id="@+id/btn_postre"
             android:layout_width="122dp"
             android:layout_height="86dp"
             android:background="@drawable/category2"
-            android:onClick="perfil"
-            app:srcCompat="@drawable/ic_profile" />
+            android:onClick="postres"
+            app:srcCompat="@drawable/pies" />
 
     </LinearLayout>
 

@@ -4,17 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pan"
+    android:background="@drawable/naranja"
     tools:context=".Combo5">
 
 
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="92dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="184dp"
+        android:text="Precio:"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="231dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="120dp"
+        android:text="$ 8.50"
+        android:textColor="@android:color/black"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="262dp"
-        android:layout_height="147dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="424dp"
+        android:layout_width="354dp"
+        android:layout_height="217dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/combo5" />
@@ -23,11 +47,12 @@
         android:id="@+id/textView2"
         android:layout_width="344dp"
         android:layout_height="50dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="16dp"
         android:text="Combo 5"
+        android:textColor="@android:color/black"
         android:textSize="@android:dimen/app_icon_size"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,6 +75,7 @@
         android:layout_marginBottom="244dp"
         android:text="- 2 Pizzas gigantes  - 1 Porcion de panes con ajo  - 1 Soda al gusto"
         android:textSize="20dp"
+        android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
